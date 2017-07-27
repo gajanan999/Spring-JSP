@@ -13,6 +13,6 @@
 
 
 <!-- <a href="hello.html">click</a>  -->
-<jsp:forward page="hello.html"/> 
+<jsp:forward page="/WEB-INF/jsp/homepage.jsp"/> 
 </body>
 </html>

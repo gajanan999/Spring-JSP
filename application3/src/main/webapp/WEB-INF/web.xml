@@ -12,5 +12,13 @@
     <servlet-mapping>  
         <servlet-name>spring</servlet-name>  
         <url-pattern>*.html</url-pattern>  
-    </servlet-mapping>  
+    </servlet-mapping> 
+    
+     <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener> 
+    
+    <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
     </web-app>  

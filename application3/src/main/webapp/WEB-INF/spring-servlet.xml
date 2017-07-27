@@ -7,9 +7,17 @@
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
 http://www.springframework.org/schema/context  
 http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
-    <context:component-scan  base-package="com.gajanan" />  
+    <context:component-scan  base-package="com.application" />  
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
         <property name="prefix" value="/WEB-INF/jsp/" />  
         <property name="suffix" value=".jsp" />  
     </bean>  
+    
+     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+    <property name="basenames">
+        <list>
+            <value>messages</value>
+        </list>
+    </property>
+    </bean>
 </beans> 
