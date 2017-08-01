@@ -3,6 +3,8 @@ package com.application.controller;
 
 import javax.servlet.http.HttpServletRequest;  
 import javax.servlet.http.HttpServletResponse;
+
+import org.apache.pdfbox.pdmodel.PDDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -26,6 +28,9 @@ public class LoginController {
 	    
 	     usr.setUserID(name);
 	     usr.setPassword(password);
+	     PDDocument doc = new PDDocument(); 
+	     
+	     
 	     
 	     ModelAndView modelAndView=new ModelAndView();
 	     modelAndView.addObject("user", usr);

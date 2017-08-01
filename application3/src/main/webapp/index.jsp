@@ -28,5 +28,9 @@
     <input type="submit" value="login"/>  
     </form>  
 ${message }
+
+<a href="hello.html">Hello Spring</a> |   
+<a href="contact.html">Contact</a>
+<a href="fileupload.html">Contact</a>
 </body>
 </html>
