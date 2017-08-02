@@ -30,7 +30,10 @@
         <put-attribute name="title" value="fileupload success" />  
         <put-attribute name="body" value="/WEB-INF/jsp/fileuploadsuccess.jsp" />  
     </definition> 
-  
+      <definition name="login" extends="base.definition" >  
+        <put-attribute name="title" value="Login page" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />  
+    </definition> 
   
   
 </tiles-definitions> 
