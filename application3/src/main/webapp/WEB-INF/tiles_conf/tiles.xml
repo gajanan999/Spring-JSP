@@ -9,7 +9,16 @@
         <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />  
         <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />  
         <put-attribute name="body" value="" />  
-        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
+        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+        
+        <!--  
+        <put-list-attribute name="javascripts">
+        	<add-attribute value="webjars/jquery/3.2.1/jquery.min.js" />
+        </put-list-attribute>
+        <put-list-attribute name="stylesheets">
+        	<add-attribute value="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+        </put-list-attribute>
+        -->
     </definition>  
   
     <definition name="contact" extends="base.definition">  
@@ -19,7 +28,7 @@
   
     <definition name="hello" extends="base.definition">  
         <put-attribute name="title" value="Hello Spring MVC" />  
-        <put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" /> 
     </definition>  
     <definition name="upload" extends="base.definition">  
         <put-attribute name="title" value="Upload file" />  

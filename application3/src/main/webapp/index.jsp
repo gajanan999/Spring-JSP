@@ -29,10 +29,10 @@
     </form>  
 ${message }
 
-<a href="hello.html">Hello Spring</a> |   
-<a href="contact.html">Contact</a>
-<a href="fileupload.html">Contact</a>
-<a href="/AppAuthorizationAction/getAuthorizationAction.html">Contact</a>
+<a href="hello">Hello Spring</a> |   
+<a href="contact">Contact</a>
+<a href="fileupload">Contact</a>
+<a href="getUserAuthorization">Contact</a>
 
 </body>
 </html>

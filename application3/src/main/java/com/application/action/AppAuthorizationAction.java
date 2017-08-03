@@ -12,8 +12,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class AppAuthorizationAction {
 	
-	    @RequestMapping("/AppAuthorizationAction/getAuthorizationAction")  
-	    public ModelAndView getUserAuthorization(HttpServletRequest request, HttpServletResponse response,Model model) {   
+	    @RequestMapping("/getUserAuthorization")
+	    public ModelAndView getUserAuthorization() {   
 	        return new ModelAndView("login");  
 	    }
 	    
